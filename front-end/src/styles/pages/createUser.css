@@ -7,10 +7,38 @@
     align-items: center;
 }
 
-h1 {
+#newuser-page h1 {
     margin: 1rem;
 }
 
-h2 {
+#newuser-page h2 {
     margin: 1rem;
+}
+
+#newuser-page .new-account .create-user-form {
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#newuser-page .new-account .create-user-form .input-block #name {
+    padding: 8px;
+}
+
+#newuser-page .new-account .create-user-form .input-block #email {
+    padding: 8px;
+}
+
+#newuser-page .new-account .create-user-form .input-block #password {
+    padding: 8px;
+}
+
+#newuser-page .new-account .create-user-form .input-block #confirm-password {
+    padding: 8px;
+}
+
+#newuser-page .new-account .create-user-form  #submit-button {
+    padding: 8px;
 }

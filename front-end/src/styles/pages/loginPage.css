@@ -1,4 +1,4 @@
-#login-page{
+#login-page {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -7,10 +7,34 @@
     align-items: center;
 }
 
-h1 {
+#login-page h1 {
     margin: 1rem;
 }
 
-h2 {
+#login-page h2 {
     margin: 1rem;
+}
+
+#login-page .login-interface .login-form {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#login-page .login-interface .login-form .input-block #password {
+    padding: 8px;
+}
+
+#login-page .login-interface .login-form .input-block #email {
+    padding: 8px;
+}
+
+#login-page .login-interface .login-form #newuser-link {
+    color: darkblue;
+}
+
+#login-page .login-interface .login-form #submit-button {
+    padding: 8px;
 }

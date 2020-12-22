@@ -1,0 +1,31 @@
+#user-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-page h1 {
+    font-size: 3.5rem;
+    margin: 1rem;
+}
+
+#user-page #user-options{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#user-page #user-options .option{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: 3px;
+}
+
+#user-page #user-options .option p{
+    font-size: 2rem;
+}
