@@ -1,0 +1,79 @@
+#vote-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#vote-page h1 {
+    font-size: 3.5rem;
+    margin: 1rem;
+}
+
+#vote-page h2 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+#vote-page #voting-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8.5rem;
+}
+
+#vote-page #voting-search #voting-search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+}
+
+#vote-page #voting-search #voting-search-form input{
+    height: 2rem;
+    width: 6rem;
+}
+
+#vote-page hr {
+    width: 80vw;
+    height: 3px;
+    margin: 1rem;
+    background-color: black;
+    color: black;
+}
+
+#vote-page .voting #voting-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#vote-page .voting #voting-form #voting-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+#vote-page .voting #voting-form #submit-button {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+}
+
+#vote-page .voting #voting-form #voting-options .option{
+    margin: 0.5rem;
+}
+
+#vote-page .voting #voting-form #voting-options .option button{
+    padding: 0.3rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}

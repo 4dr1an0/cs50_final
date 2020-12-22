@@ -21,11 +21,12 @@
 }
 
 #user-page #user-options .option{
-    padding: 1rem;
+    width: 12rem;
+    height: 4rem;
     border-radius: 0.5rem;
     border-width: 3px;
 }
 
 #user-page #user-options .option p{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
