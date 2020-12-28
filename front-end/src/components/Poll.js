@@ -1,9 +1,9 @@
-export const Voting = (props) => {
+export const Poll = (props) => {
     return (
-        <div className="voting" id={props.id}>
+        <div className="poll" id={props.id}>
             <h2>Brazilian President</h2>
-            <form id="voting-form">
-                <div id="voting-options">
+            <form id="poll-form">
+                <div id="poll-options">
                     <div className="option">
                         <button type="button" >Bolsonaro 17</button>
                     </div>

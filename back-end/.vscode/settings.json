@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "/home/adriano/.asdf/installs/python/3.9.1/bin/python3",
+    "python.linting.pylintArgs": [
+            "--load-plugins",
+            "pylint_flask_sqlalchemy",
+            "pylint_flask",          
+    ],
+    "python.linting.enabled": true
+}

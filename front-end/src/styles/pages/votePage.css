@@ -17,7 +17,7 @@
     margin: 1rem;
 }
 
-#vote-page #voting-search {
+#vote-page #poll-search {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -25,7 +25,7 @@
     height: 8.5rem;
 }
 
-#vote-page #voting-search #voting-search-form {
+#vote-page #poll-search #poll-search-form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,7 +33,7 @@
     width: 10rem;
 }
 
-#vote-page #voting-search #voting-search-form input{
+#vote-page #poll-search #poll-search-form input{
     height: 2rem;
     width: 6rem;
 }
@@ -46,14 +46,14 @@
     color: black;
 }
 
-#vote-page .voting #voting-form {
+#vote-page .poll #poll-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#vote-page .voting #voting-form #voting-options {
+#vote-page .poll #poll-form #poll-options {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,18 +61,18 @@
     margin: 2rem;
 }
 
-#vote-page .voting #voting-form #submit-button {
+#vote-page .poll #poll-form #submit-button {
     padding: 0.8rem;
     font-size: 1.2rem;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
 }
 
-#vote-page .voting #voting-form #voting-options .option{
+#vote-page .poll #poll-form #poll-options .option{
     margin: 0.5rem;
 }
 
-#vote-page .voting #voting-form #voting-options .option button{
+#vote-page .poll #poll-form #poll-options .option button{
     padding: 0.3rem;
     font-size: 2rem;
     border-radius: 0.5rem;

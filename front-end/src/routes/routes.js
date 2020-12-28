@@ -4,8 +4,8 @@ import Login from '../pages/loginPage';
 import CreateUser from '../pages/createUser';
 import PrivateRoute from './privateRoute';
 import UserPage from '../pages/userPage';
-import MyVotings from '../pages/showMyVotings';
-import NewVoting from '../pages/newVoting';
+import MyPolls from '../pages/showMyPolls';
+import NewPoll from '../pages/newPoll';
 import VotePage from '../pages/votePage';
 
 function Routes() {
@@ -17,8 +17,8 @@ function Routes() {
                 {/* Authentication required */}
                 <Route path="/id" component={UserPage}/>
                 <Route path="/vote" component={VotePage}/>
-                <Route path="/myvotings" component={MyVotings}/>
-                <Route path="/newvoting" component={NewVoting}/>
+                <Route path="/mypolls" component={MyPolls}/>
+                <Route path="/newpoll" component={NewPoll}/>
             </Switch>
         </BrowserRouter>
     );

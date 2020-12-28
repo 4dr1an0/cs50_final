@@ -19,11 +19,11 @@ function UserPage() {
         <Button className="option" to="/vote" id="voteLink">
           <p>Vote</p>
         </Button>
-        <Button className="option" to="/myvotings" id="votingsLink">
-          <p>My Votings</p>
+        <Button className="option" to="/mypolls" id="pollsLink">
+          <p>My Polls</p>
         </Button>
-        <Button className="option" to="/newvoting" id="newLink">
-          <p>New Voting</p>
+        <Button className="option" to="/newpoll" id="newLink">
+          <p>New Poll</p>
         </Button>
       </div>
     </div>
